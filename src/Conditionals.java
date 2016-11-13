@@ -1,6 +1,6 @@
 /**
  * Created by Nout on 13.11.2016.
- */
+ */ 
 import java.util.Scanner;
 import java.util.Random;
 
