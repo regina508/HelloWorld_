@@ -6,7 +6,7 @@
 public class CalculateArea {
     public static void main(String[] args) {
         double a = calculateArea(1.0, 2.0, 4.0, 6.0);
-        System.out.print("Area is " + 5);
+        System.out.print("Area is " + 5.0);
     }
 
         public static double calculateArea (double xc, double yc, double xp, double yp){
@@ -23,10 +23,13 @@ public class CalculateArea {
             double dy = y2 - y1;
             System.out.println("dx is " + dx);
             System.out.println("dy is " + dy);
-            return 0.0;
+            double dsquared = dx * dx + dy * dy;
+            System.out.println("dsquared is " + dsquared);
+            double result = Math.sqrt(dsquared);
+            return result;
 
         }
 
 
 
-    }
+}
