@@ -5,9 +5,8 @@
 
 public class CalculateArea {
     public static void main(String[] args) {
-        double a = calculateArea(1.8, 2.8, 4.8, 6.8);
-        System.out.print("Area is " + 4);
-
+        double a = calculateArea(1.0, 2.0, 4.0, 6.0);
+        System.out.print("Area is " + 5);
     }
 
         public static double calculateArea (double xc, double yc, double xp, double yp){
