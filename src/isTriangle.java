@@ -34,7 +34,7 @@ public class isTriangle {
         } else {
             System.out.println("Ups! You can't form a triangle from sticks with given lengths!");
         }
-        
+
 
     }
 

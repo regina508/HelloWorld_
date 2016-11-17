@@ -15,19 +15,18 @@ public class Conditionals {
         System.out.print("Please choose x: ");
         userX = input.nextInt();
 
-        if (x > 0) {
-            System.out.println("x is positive!");
 
-        } else if (x < 0) {
-            System.out.println("x is negative");
-
-        } else {
+        if (x == 0) {
             System.out.println("x is zero");
+        } else {
+            if (x > 0) {
+                System.out.println("x is positive");
+            } else {
+                System.out.println("x is negative");
+
+            }
+
+
         }
-
-
-
-
-
     }
 }
