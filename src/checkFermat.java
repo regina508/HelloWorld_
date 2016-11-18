@@ -45,7 +45,21 @@ public class checkFermat {
 
         System.out.println(Math.pow(c, n));
 
+        if (checkfermat(a, b, c, n)){
+            System.out.println("No, that doesn’t work.");
+        } else {
+            System.out.println("Holy smokes, Fermat was wrong!");
+        }
 
+
+
+    }
+    public static boolean checkfermat (int a, int b, int c, int n){
+        if (n > 2) {
+            return false;
+        } else {
+            return true;
+        }
 
 
     }
