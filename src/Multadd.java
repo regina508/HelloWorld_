@@ -43,6 +43,15 @@ public class Multadd {
 
 
 
+        double userNumberX;
+
+        System.out.println("Choose x:");
+        userNumberX = input.nextInt();
+
+        System.out.println("x*e^(-x) + sqrt(1-e^(-x)) = ");
+
+
+
     }
 
 
